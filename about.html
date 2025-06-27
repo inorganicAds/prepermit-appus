@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - TravelPrep Essentials</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn about TravelPrep Essentials' mission to simplify travel packing, our commitment to quality gear, and our passion for helping you explore the world.">
+    <meta name="keywords" content="About TravelPrep Essentials, travel company, travel mission, quality travel gear, packing made easy">
+    <link rel="canonical" href="https://travelprep-app.vercel.app/about.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / LinkedIn Meta Tags -->
+    <meta property="og:title" content="About Us - TravelPrep Essentials">
+    <meta property="og:description" content="Learn about TravelPrep Essentials' mission to simplify travel packing and our commitment to quality gear.">
+    <meta property="og:type" content="about_us">
+    <meta property="og:url" content="https://travelprep-app.vercel.app/about.html">
+    <meta property="og:image" content="https://placehold.co/1200x630/2563eb/ffffff?text=About+TravelPrep"> <!-- Updated to Blue -->
+
+    <!-- Schema.org Markup for Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "TravelPrep Essentials",
+      "url": "https://travelprep-app.vercel.app/",
+      "logo": "https://travelprep-app.vercel.app/images/travelprep-logo.png", <!-- Placeholder for your logo -->
+      "sameAs": [
+        "https://facebook.com/travelprepessentials",  <!-- Replace with actual social profiles -->
+        "https://twitter.com/travelprep",
+        "https://instagram.com/travelprepessentials"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-TRIP-GEAR",
+        "contactType": "customer service"
+      },
+      "description": "TravelPrep Essentials is dedicated to providing travelers with high-quality, essential gear and expert packing advice for smarter, lighter, and more confident journeys."
+    }
+    </script>
+
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        .focus-ring {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.45); /* Tailwind blue-500 for focus */
+        }
+        .transition-ease {
+            transition: all 0.3s ease-in-out;
+        }
+        .hero-bg-sub {
+            background-image: linear-gradient(to right bottom, #3b82f6, #60a5fa); /* Lighter blue gradient */
+        }
+        @keyframes buttonHover {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-3px); }
+            100% { transform: translateY(0); }
+        }
+        .animate-button-hover:hover {
+            animation: buttonHover 0.3s ease-in-out;
+        }
+        .section-padding {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header/Navigation Bar -->
+    <header class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-blue-600 rounded-lg p-2 hover:bg-blue-50 transition-ease">TravelPrep Essentials</a>
+            <nav>
+                <ul class="flex space-x-4 md:space-x-6 text-sm md:text-base">
+                    <li><a href="categories.html" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">Shop Categories</a></li>
+                    <li><a href="guides.html" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">Guides & Tips</a></li>
+                    <li><a href="about.html" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">About Us</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="section-padding bg-white rounded-xl shadow-md mx-auto my-12 max-w-6xl">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-blue-700 mb-12">About TravelPrep Essentials: Your Journey Starts Here</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div class="text-left">
+                    <p class="text-gray-700 text-lg mb-6">
+                        At TravelPrep Essentials, we believe that the right gear can transform a good trip into a great one. Our mission is to simplify the packing process and empower every traveler with the confidence that comes from being well-prepared. We meticulously curate a selection of high-quality, practical, and innovative travel essentials designed to meet the demands of any adventure.
+                    </p>
+                    <p class="text-gray-700 text-lg mb-6">
+                        Founded by seasoned globetrotters who understand the nuances of efficient packing and comfortable travel, TravelPrep Essentials was born from a desire to share reliable solutions. We know that every item in your luggage counts, whether it's a lightweight travel towel, a versatile adapter, or a comfortable neck pillow.
+                    </p>
+                    <p class="text-gray-700 text-lg">
+                        Beyond just products, we are a resource for travelers. Our expert guides and tips aim to inspire smarter packing habits and help you navigate the world with ease. Join our community of explorers and let us help you prepare for your next unforgettable journey.
+                    </p>
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://placehold.co/400x250/2563eb/ffffff?text=Travel+Prep+Mission" onerror="this.onerror=null;this.src='https://placehold.co/400x250/e0e0e0/333333?text=About+Us+Image';" alt="Image representing travel planning and essentials" class="rounded-xl shadow-lg w-full max-w-md object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10 px-4 mt-12 rounded-t-xl shadow-lg">
+        <div class="container mx-auto text-center md:flex md:justify-between md:items-center">
+            <p class="text-sm mb-4 md:mb-0">&copy; 2025 TravelPrep Essentials. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 md:space-x-6 text-sm">
+                <a href="privacy.html" class="text-gray-300 hover:text-white transition-ease">Privacy Policy</a>
+                <a href="terms.html" class="text-gray-300 hover:text-white transition-ease">Terms & Conditions</a>
+                <a href="about.html" class="text-gray-300 hover:text-white transition-ease">About Us</a>
+                <a href="contact.html" class="text-gray-300 hover:text-white transition-ease">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
