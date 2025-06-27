@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guides & Packing Tips - TravelPrep Essentials</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Access expert travel guides and packing tips from TravelPrep Essentials. Learn how to pack light, stay safe, choose essential gear, and make the most of your trips.">
+    <meta name="keywords" content="travel guides, packing tips, travel advice, how to pack, travel hacks, safe travel, travel planning, essential gear guides">
+    <link rel="canonical" href="https://travelprep-app.vercel.app/guides.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / LinkedIn Meta Tags -->
+    <meta property="og:title" content="Travel Guides & Packing Tips - TravelPrep Essentials">
+    <meta property="og:description" content="Access expert travel guides and packing tips to help you plan and enjoy your next adventure.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://travelprep-app.vercel.app/guides.html">
+    <meta property="og:image" content="https://placehold.co/1200x630/2563eb/ffffff?text=Travel+Guides"> <!-- Updated to Blue -->
+
+    <!-- Schema.org Markup for WebPage with potential for Article -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "name": "Travel Guides & Packing Tips",
+      "url": "https://travelprep-app.vercel.app/guides.html",
+      "description": "A collection of helpful travel guides and packing tips to prepare you for any journey.",
+      "about": {
+        "@type": "Thing",
+        "name": "Travel Planning"
+      }
+    }
+    </script>
+
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        .focus-ring {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.45); /* Tailwind blue-500 for focus */
+        }
+        .transition-ease {
+            transition: all 0.3s ease-in-out;
+        }
+        .hero-bg-sub {
+            background-image: linear-gradient(to right bottom, #3b82f6, #60a5fa); /* Lighter blue gradient */
+        }
+        @keyframes buttonHover {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-3px); }
+            100% { transform: translateY(0); }
+        }
+        .animate-button-hover:hover {
+            animation: buttonHover 0.3s ease-in-out;
+        }
+        .section-padding {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header/Navigation Bar -->
+    <header class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-blue-600 rounded-lg p-2 hover:bg-blue-50 transition-ease">TravelPrep Essentials</a>
+            <nav>
+                <ul class="flex space-x-4 md:space-x-6 text-sm md:text-base">
+                    <li><a href="categories.html" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">Shop Categories</a></li>
+                    <li><a href="guides.html" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">Guides & Tips</a></li>
+                    <li><a href="about.html" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">About Us</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title Section -->
+    <section class="hero-bg-sub text-white section-padding text-center rounded-b-xl shadow-lg">
+        <div class="container mx-auto max-w-4xl">
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4">
+                Essential Travel Guides & Smart Packing Tips
+            </h1>
+            <p class="text-xl md:text-2xl opacity-90">
+                Unlock expert advice to make every journey smoother and more enjoyable.
+            </p>
+        </div>
+    </section>
+
+    <!-- Guides List Section -->
+    <section class="section-padding bg-white rounded-xl shadow-md mx-auto my-12 max-w-6xl">
+        <div class="container mx-auto text-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <!-- Guide 1: Ultimate Carry-On Packing List -->
+                <div id="carry-on" class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-ease hover:scale-[1.02] text-left">
+                    <img src="https://placehold.co/600x300/a78bfa/ffffff?text=Packing+List" alt="A perfectly packed carry-on bag" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">The Ultimate Carry-On Packing List</h3>
+                    <p class="text-gray-700 mb-4">
+                        Learn how to maximize space and minimize weight with our definitive guide for hassle-free travel. Covers clothing, toiletries, and essential gadgets.
+                    </p>
+                    <a href="#" class="inline-block text-blue-600 hover:text-blue-800 font-medium transition-ease">
+                        Read More <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </div>
+                <!-- Guide 2: Staying Healthy Abroad -->
+                <div id="health-safety-guide" class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-ease hover:scale-[1.02] text-left">
+                    <img src="https://placehold.co/600x300/fcd34d/1e293b?text=Health+Abroad" alt="Traveler staying healthy while abroad" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Staying Healthy & Safe on Your Adventures</h3>
+                    <p class="text-gray-700 mb-4">
+                        Essential tips and products to ensure your well-being no matter where your travels take you. Includes first-aid, vaccinations, and local safety.
+                    </p>
+                    <a href="#" class="inline-block text-blue-600 hover:text-blue-800 font-medium transition-ease">
+                        Read More <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </div>
+                <!-- Guide 3: Tech Must-Haves -->
+                <div id="tech-must-haves" class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-ease hover:scale-[1.02] text-left">
+                    <img src="https://placehold.co/600x300/3b82f6/ffffff?text=Travel+Tech" alt="Assortment of travel tech gadgets" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Travel Tech Must-Haves for Every Journey</h3>
+                    <p class="text-gray-700 mb-4">
+                        From universal adapters to portable chargers and noise-canceling headphones, never leave home without these electronic companions.
+                    </p>
+                    <a href="#" class="inline-block text-blue-600 hover:text-blue-800 font-medium transition-ease">
+                        Read More <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </div>
+                <!-- Guide 4: Budget Travel Tips -->
+                <div id="budget-travel" class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-ease hover:scale-[1.02] text-left">
+                    <img src="https://placehold.co/600x300/ef4444/ffffff?text=Budget+Travel" alt="Traveler looking at a map on a budget" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Smart Strategies for Budget-Friendly Travel</h3>
+                    <p class="text-gray-700 mb-4">
+                        Discover tips and tricks to save money on flights, accommodation, food, and activities without compromising your experience.
+                    </p>
+                    <a href="#" class="inline-block text-blue-600 hover:text-blue-800 font-medium transition-ease">
+                        Read More <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-12">
+                <a href="categories.html" class="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 hover:scale-105 transition-all duration-300 animate-button-hover focus-ring">
+                    Explore Our Products
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="section-padding hero-bg-sub text-white text-center rounded-xl shadow-lg mx-auto my-12 max-w-6xl">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-4xl font-bold mb-6">Ready to Pack Perfectly?</h2>
+            <p class="text-xl opacity-90 mb-8">
+                Combine our expert advice with top-notch gear for an unforgettable journey.
+            </p>
+            <a href="categories.html" class="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 hover:scale-105 transition-all duration-300 animate-button-hover focus-ring">
+                Start Shopping Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10 px-4 mt-12 rounded-t-xl shadow-lg">
+        <div class="container mx-auto text-center md:flex md:justify-between md:items-center">
+            <p class="text-sm mb-4 md:mb-0">&copy; 2025 TravelPrep Essentials. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 md:space-x-6 text-sm">
+                <a href="privacy.html" class="text-gray-300 hover:text-white transition-ease">Privacy Policy</a>
+                <a href="terms.html" class="text-gray-300 hover:text-white transition-ease">Terms & Conditions</a>
+                <a href="about.html" class="text-gray-300 hover:text-white transition-ease">About Us</a>
+                <a href="contact.html" class="text-gray-300 hover:text-white transition-ease">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
